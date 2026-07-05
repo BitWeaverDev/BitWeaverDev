@@ -20,8 +20,8 @@ jobs:
         with:
           github_user_name: BitWeaverDev
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.svg?color_snake=#6D4FD1&color_dots=#e6edf7,#bcd4f5,#8ab4ef,#4b91f1,#0B5FCC
+            dist/github-contribution-grid-snake-dark.svg?color_snake=#a78bfa&color_dots=#0d1730,#123a66,#1f5c9e,#2E9EF7,#5eead4
       - name: push to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
