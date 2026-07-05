@@ -98,7 +98,11 @@ scan complete — 0 implicit trusts found
 ### 🌐 Open Source Contributions
 
 <!-- CONTRIB-LIST:START -->
-_Building up open-source contributions — check back soon!_
+- [astral-sh/uv](https://github.com/astral-sh/uv) — An extremely fast Python package and project manager, written in Rust.
+- [astral-sh/ruff](https://github.com/astral-sh/ruff) — An extremely fast Python linter and code formatter, written in Rust.
+- [pola-rs/polars](https://github.com/pola-rs/polars) — Extremely fast Query Engine for DataFrames, written in Rust
+- [j178/prek](https://github.com/j178/prek) — ⚡ A fast Git hook manager written in Rust, designed as a drop-in alternative to pre-commit, reimagined.
+- [MatthewMckee4/karva](https://github.com/MatthewMckee4/karva) — An extremely fast Python test framework, written in Rust. 
 <!-- CONTRIB-LIST:END -->
 
 <div align="center">
