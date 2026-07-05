@@ -35,31 +35,32 @@ $ ./scan_stack.sh --deep
 scan complete — 0 implicit trusts found
 ```
 
-<div align="center"><img src="assets/divider.svg" width="100%" height="24" alt="" /></div>
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="assets/divider-light.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="assets/divider.svg" />
+    <img src="assets/divider.svg" width="100%" height="24" alt="" />
+  </picture>
+</div>
 
 ### 🛠️ Toolchain
 
 <div align="center">
-
-<sub><b>LANGUAGES</b></sub>
-<br/>
-<img src="https://skillicons.dev/icons?i=py,go,rust" height="52" alt="Python, Go, Rust" />
-
-<br/><br/>
-
-<sub><b>CLOUD & IaC</b></sub>
-<br/>
-<img src="https://skillicons.dev/icons?i=azure,terraform" height="52" alt="Azure, Terraform" /><img src="assets/icon-bicep.svg" height="52" alt="Bicep" /><img src="assets/icon-helm.svg" height="52" alt="Helm" />
-
-<br/><br/>
-
-<sub><b>PLATFORM & OPS</b></sub>
-<br/>
+<sub><b>LANGUAGES</b></sub><br/>
+<img src="https://skillicons.dev/icons?i=py,go,rust" height="52" alt="Python, Go, Rust" /><br/>
+<sub><b>CLOUD & IaC</b></sub><br/>
+<img src="https://skillicons.dev/icons?i=azure,terraform" height="52" alt="Azure, Terraform" /><img src="assets/icon-bicep.svg" height="52" alt="Bicep" /><img src="assets/icon-helm.svg" height="52" alt="Helm" /><br/>
+<sub><b>PLATFORM & OPS</b></sub><br/>
 <img src="https://skillicons.dev/icons?i=kubernetes,docker,linux,git,bash,vscode" height="52" alt="Kubernetes, Docker, Linux, Git, Bash, VS Code" />
-
 </div>
 
-<div align="center"><img src="assets/divider.svg" width="100%" height="24" alt="" /></div>
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="assets/divider-light.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="assets/divider.svg" />
+    <img src="assets/divider.svg" width="100%" height="24" alt="" />
+  </picture>
+</div>
 
 ### 📊 Live Activity
 
@@ -74,17 +75,9 @@ scan complete — 0 implicit trusts found
 <br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-view.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="profile-3d-contrib/profile-green-animate.svg" />
-  <img alt="3D contribution calendar" src="profile-3d-contrib/profile-night-view.svg" width="80%" />
-</picture>
-
-<br/><br/>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=BitWeaverDev&background=05070D&border=2E9EF7&ring=5EEAD4&fire=A78BFA&currStreakNum=FFFFFF&sideLabels=8B98A5&currStreakLabel=5EEAD4&dates=5B6577&border_radius=14" />
-  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=BitWeaverDev&background=F4F7FB&border=0B5FCC&ring=0E8F84&fire=6D4FD1&currStreakNum=17223B&sideLabels=57606F&currStreakLabel=0E8F84&dates=7A8699&border_radius=14" />
-  <img alt="GitHub Streak" src="https://streak-stats.demolab.com?user=BitWeaverDev&background=05070D&border=2E9EF7&ring=5EEAD4&fire=A78BFA&currStreakNum=FFFFFF&sideLabels=8B98A5&currStreakLabel=5EEAD4&dates=5B6577&border_radius=14" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=BitWeaverDev&background=05070D&border=2E9EF7&ring=5EEAD4&fire=A78BFA&currStreakNum=FFFFFF&sideNums=FFFFFF&sideLabels=8B98A5&currStreakLabel=5EEAD4&dates=5B6577&border_radius=14" />
+  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=BitWeaverDev&background=F4F7FB&border=0B5FCC&ring=0E8F84&fire=6D4FD1&currStreakNum=17223B&sideNums=17223B&sideLabels=57606F&currStreakLabel=0E8F84&dates=7A8699&border_radius=14" />
+  <img alt="GitHub Streak" src="https://streak-stats.demolab.com?user=BitWeaverDev&background=05070D&border=2E9EF7&ring=5EEAD4&fire=A78BFA&currStreakNum=FFFFFF&sideNums=FFFFFF&sideLabels=8B98A5&currStreakLabel=5EEAD4&dates=5B6577&border_radius=14" />
 </picture>
 
 <br/><br/>
@@ -94,7 +87,13 @@ scan complete — 0 implicit trusts found
 
 </div>
 
-<div align="center"><img src="assets/divider.svg" width="100%" height="24" alt="" /></div>
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="assets/divider-light.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="assets/divider.svg" />
+    <img src="assets/divider.svg" width="100%" height="24" alt="" />
+  </picture>
+</div>
 
 <div align="center">
 
