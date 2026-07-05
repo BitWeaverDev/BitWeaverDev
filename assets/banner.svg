@@ -6,9 +6,15 @@
       <stop offset="100%" stop-color="#05070d"/>
     </linearGradient>
     <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#2E9EF7"/>
-      <stop offset="50%" stop-color="#5eead4"/>
-      <stop offset="100%" stop-color="#2E9EF7"/>
+      <stop offset="0%" stop-color="#2E9EF7">
+        <animate attributeName="stop-color" values="#2E9EF7;#5eead4;#a78bfa;#2E9EF7" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#5eead4">
+        <animate attributeName="stop-color" values="#5eead4;#a78bfa;#2E9EF7;#5eead4" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#2E9EF7">
+        <animate attributeName="stop-color" values="#2E9EF7;#5eead4;#a78bfa;#2E9EF7" dur="6s" repeatCount="indefinite"/>
+      </stop>
     </linearGradient>
     <linearGradient id="scanGrad" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#2E9EF7" stop-opacity="0"/>
@@ -25,6 +31,14 @@
   </defs>
 
   <rect width="1200" height="280" fill="url(#bg)"/>
+  <rect x="2" y="2" width="1196" height="276" rx="18" fill="none" stroke="#2E9EF7" stroke-opacity="0.35" stroke-width="1.5"/>
+
+  <g stroke="#5eead4" stroke-opacity="0.9" stroke-width="2.5" fill="none">
+    <path d="M22,20 L22,38 M22,20 L40,20"/>
+    <path d="M1178,20 L1178,38 M1178,20 L1160,20"/>
+    <path d="M22,260 L22,242 M22,260 L40,260"/>
+    <path d="M1178,260 L1178,242 M1178,260 L1160,260"/>
+  </g>
 
   <g stroke="#2E9EF7" stroke-opacity="0.18" stroke-width="1.5" fill="none">
     <path d="M0,40 H200 V80 H420 V30"/>
@@ -48,6 +62,9 @@
   <rect x="-20" y="0" width="6" height="280" fill="url(#scanGrad)" filter="url(#glow)">
     <animate attributeName="x" from="-20" to="1220" dur="5s" repeatCount="indefinite"/>
   </rect>
+  <rect x="1220" y="0" width="6" height="280" fill="url(#scanGrad)" filter="url(#glow)" opacity="0.5">
+    <animate attributeName="x" from="1220" to="-20" dur="7s" begin="1.2s" repeatCount="indefinite"/>
+  </rect>
 
   <g transform="translate(60,88)" filter="url(#glow)">
     <path d="M40 0 L78 14 V46 C78 74 58 92 40 100 C22 92 2 74 2 46 V14 Z" fill="#0d1730" stroke="url(#textGrad)" stroke-width="3"/>
@@ -56,6 +73,9 @@
 
   <text x="180" y="118" font-family="'JetBrains Mono','Fira Code',monospace" font-size="46" font-weight="700" fill="url(#textGrad)">BitWeaverDev</text>
   <text x="180" y="152" font-family="'JetBrains Mono','Fira Code',monospace" font-size="17" fill="#8b98a5">root@zero-trust:~$ securing distributed systems at scale</text>
+  <rect x="655" y="139" width="9" height="16" fill="#5eead4">
+    <animate attributeName="opacity" values="1;1;0;0" dur="1s" repeatCount="indefinite"/>
+  </rect>
 
   <g font-family="'JetBrains Mono',monospace" font-size="13" font-weight="600">
     <g transform="translate(180,178)">
@@ -67,10 +87,14 @@
       <text x="46" y="19" text-anchor="middle" fill="#5eead4">GOLANG</text>
     </g>
     <g transform="translate(388,178)">
+      <rect width="70" height="28" rx="14" fill="#132339" stroke="#2E9EF7" stroke-width="1"/>
+      <text x="35" y="19" text-anchor="middle" fill="#5eead4">RUST</text>
+    </g>
+    <g transform="translate(470,178)">
       <rect width="82" height="28" rx="14" fill="#132339" stroke="#2E9EF7" stroke-width="1"/>
       <text x="41" y="19" text-anchor="middle" fill="#5eead4">AZURE</text>
     </g>
-    <g transform="translate(482,178)">
+    <g transform="translate(564,178)">
       <rect width="128" height="28" rx="14" fill="#132339" stroke="#2E9EF7" stroke-width="1"/>
       <text x="64" y="19" text-anchor="middle" fill="#5eead4">ZERO-TRUST</text>
     </g>

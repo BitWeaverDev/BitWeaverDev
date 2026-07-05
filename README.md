@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1500&color=5EEAD4&center=true&vCenter=true&width=760&lines=Zero-Trust+Architecture+%7C+Never+Trust%2C+Always+Verify;Securing+Distributed+Systems+at+Scale;CISO+Dept+%40+ABN+AMRO;Python+%2B+Golang+%2B+Azure" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1500&color=5EEAD4&center=true&vCenter=true&width=760&lines=Zero-Trust+Architecture+%7C+Never+Trust%2C+Always+Verify;Securing+Distributed+Systems+at+Scale;CISO+Dept+%40+ABN+AMRO;Python+%2B+Golang+%2B+Rust+%2B+Azure" alt="Typing SVG" />
 </div>
 
 <br/>
@@ -21,22 +21,39 @@ LOCATION  : Utrecht, The Netherlands
 $ ./scan_stack.sh --deep
 [OK] python        interpreter armed
 [OK] golang        binaries compiled
+[OK] rust          memory-safe binaries compiled
 [OK] azure         perimeter mapped
+[OK] bicep         infra declared, no drift
+[OK] terraform     state locked, plan verified
+[OK] helm          releases pinned & signed
 [OK] kubernetes    workloads isolated
-[OK] terraform     infra as code, verified
 [OK] zero-trust    policy: DEFAULT DENY
 scan complete — 0 implicit trusts found
 ```
 
----
+<div align="center"><img src="assets/divider.svg" width="100%" height="24" alt="" /></div>
 
-### 🛠️ Tech Stack
+### 🛠️ Toolchain
 
-<div align="center">
-<img src="https://skillicons.dev/icons?i=py,go,azure,linux,docker,kubernetes,git,bash,terraform,vscode" />
-</div>
+<table align="center">
+<tr><td align="center" width="140"><sub><b>LANGUAGES</b></sub></td><td>
 
----
+<img src="https://skillicons.dev/icons?i=py,go,rust" height="52" alt="Python, Go, Rust" />
+
+</td></tr>
+<tr><td align="center"><sub><b>CLOUD & IaC</b></sub></td><td>
+
+<img src="https://skillicons.dev/icons?i=azure,terraform" height="52" alt="Azure, Terraform" /><img src="assets/icon-bicep.svg" height="52" alt="Bicep" /><img src="assets/icon-helm.svg" height="52" alt="Helm" />
+
+</td></tr>
+<tr><td align="center"><sub><b>PLATFORM & OPS</b></sub></td><td>
+
+<img src="https://skillicons.dev/icons?i=kubernetes,docker,linux,git,bash,vscode" height="52" alt="Kubernetes, Docker, Linux, Git, Bash, VS Code" />
+
+</td></tr>
+</table>
+
+<div align="center"><img src="assets/divider.svg" width="100%" height="24" alt="" /></div>
 
 ### 🐍 Contribution Activity
 
@@ -59,7 +76,7 @@ scan complete — 0 implicit trusts found
 
 </div>
 
----
+<div align="center"><img src="assets/divider.svg" width="100%" height="24" alt="" /></div>
 
 <div align="center">
 
