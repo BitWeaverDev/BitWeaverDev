@@ -1,0 +1,95 @@
+<svg width="100%" height="280" viewBox="0 0 1200 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="BitWeaverDev banner">
+  <defs>
+    <linearGradient id="bgL" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f4f7fb"/>
+      <stop offset="50%" stop-color="#e7edf6"/>
+      <stop offset="100%" stop-color="#f4f7fb"/>
+    </linearGradient>
+    <linearGradient id="textGradL" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0B5FCC">
+        <animate attributeName="stop-color" values="#0B5FCC;#0E8F84;#6D4FD1;#0B5FCC" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#0E8F84">
+        <animate attributeName="stop-color" values="#0E8F84;#6D4FD1;#0B5FCC;#0E8F84" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#0B5FCC">
+        <animate attributeName="stop-color" values="#0B5FCC;#0E8F84;#6D4FD1;#0B5FCC" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <linearGradient id="scanGradL" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0B5FCC" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#0E8F84" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#0B5FCC" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="280" fill="url(#bgL)"/>
+  <rect x="2" y="2" width="1196" height="276" rx="18" fill="none" stroke="#0B5FCC" stroke-opacity="0.3" stroke-width="1.5"/>
+
+  <g stroke="#0E8F84" stroke-opacity="0.85" stroke-width="2.5" fill="none">
+    <path d="M22,20 L22,38 M22,20 L40,20"/>
+    <path d="M1178,20 L1178,38 M1178,20 L1160,20"/>
+    <path d="M22,260 L22,242 M22,260 L40,260"/>
+    <path d="M1178,260 L1178,242 M1178,260 L1160,260"/>
+  </g>
+
+  <g stroke="#0B5FCC" stroke-opacity="0.14" stroke-width="1.5" fill="none">
+    <path d="M0,40 H200 V80 H420 V30"/>
+    <path d="M1200,60 H980 V20 H760 V70"/>
+    <path d="M0,220 H160 V180 H360"/>
+    <path d="M1200,230 H1040 V190 H860 V240"/>
+    <path d="M480,0 V50 H620 V0"/>
+    <path d="M520,280 V230 H700 V280"/>
+  </g>
+  <g fill="#0E8F84" fill-opacity="0.5">
+    <circle cx="200" cy="40" r="3"/>
+    <circle cx="420" cy="80" r="3"/>
+    <circle cx="980" cy="60" r="3"/>
+    <circle cx="760" cy="70" r="3"/>
+    <circle cx="160" cy="220" r="3"/>
+    <circle cx="360" cy="180" r="3"/>
+    <circle cx="1040" cy="230" r="3"/>
+    <circle cx="860" cy="240" r="3"/>
+  </g>
+
+  <rect x="-20" y="0" width="6" height="280" fill="url(#scanGradL)">
+    <animate attributeName="x" from="-20" to="1220" dur="5s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="1220" y="0" width="6" height="280" fill="url(#scanGradL)" opacity="0.5">
+    <animate attributeName="x" from="1220" to="-20" dur="7s" begin="1.2s" repeatCount="indefinite"/>
+  </rect>
+
+  <g transform="translate(60,88)">
+    <path d="M40 0 L78 14 V46 C78 74 58 92 40 100 C22 92 2 74 2 46 V14 Z" fill="#ffffff" stroke="url(#textGradL)" stroke-width="3"/>
+    <path d="M24 48 L36 60 L58 34" fill="none" stroke="#0E8F84" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <text x="180" y="118" font-family="'JetBrains Mono','Fira Code',monospace" font-size="46" font-weight="700" fill="url(#textGradL)">BitWeaverDev</text>
+  <text x="180" y="152" font-family="'JetBrains Mono','Fira Code',monospace" font-size="17" fill="#57606f">root@zero-trust:~$ securing distributed systems at scale</text>
+  <rect x="655" y="139" width="9" height="16" fill="#0E8F84">
+    <animate attributeName="opacity" values="1;1;0;0" dur="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <g font-family="'JetBrains Mono',monospace" font-size="13" font-weight="600">
+    <g transform="translate(180,178)">
+      <rect width="92" height="28" rx="14" fill="#ffffff" stroke="#0B5FCC" stroke-width="1"/>
+      <text x="46" y="19" text-anchor="middle" fill="#0B5FCC">PYTHON</text>
+    </g>
+    <g transform="translate(284,178)">
+      <rect width="92" height="28" rx="14" fill="#ffffff" stroke="#0B5FCC" stroke-width="1"/>
+      <text x="46" y="19" text-anchor="middle" fill="#0B5FCC">GOLANG</text>
+    </g>
+    <g transform="translate(388,178)">
+      <rect width="70" height="28" rx="14" fill="#ffffff" stroke="#0B5FCC" stroke-width="1"/>
+      <text x="35" y="19" text-anchor="middle" fill="#0B5FCC">RUST</text>
+    </g>
+    <g transform="translate(470,178)">
+      <rect width="82" height="28" rx="14" fill="#ffffff" stroke="#0B5FCC" stroke-width="1"/>
+      <text x="41" y="19" text-anchor="middle" fill="#0B5FCC">AZURE</text>
+    </g>
+    <g transform="translate(564,178)">
+      <rect width="128" height="28" rx="14" fill="#ffffff" stroke="#0B5FCC" stroke-width="1"/>
+      <text x="64" y="19" text-anchor="middle" fill="#0B5FCC">ZERO-TRUST</text>
+    </g>
+  </g>
+</svg>

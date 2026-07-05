@@ -1,5 +1,9 @@
 <div align="center">
-  <img src="assets/banner.svg" alt="BitWeaverDev" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="assets/banner.svg" />
+    <img src="assets/banner.svg" alt="BitWeaverDev" width="100%" />
+  </picture>
 </div>
 
 <div align="center">
@@ -83,5 +87,6 @@ scan complete — 0 implicit trusts found
 ### 📡 Connect
 
 [![GitHub](https://img.shields.io/badge/GitHub-BitWeaverDev-2E9EF7?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117)](https://github.com/BitWeaverDev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ashkan%20Hadadi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117)](https://www.linkedin.com/in/ashkan-hadadi)
 
 </div>
