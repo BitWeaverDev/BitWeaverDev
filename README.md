@@ -59,31 +59,7 @@ scan complete — 0 implicit trusts found
 
 <div align="center"><img src="assets/divider.svg" width="100%" height="24" alt="" /></div>
 
-### 🎓 Certifications
-
-<div align="center">
-
-[![AZ-900](https://img.shields.io/badge/AZ--900-Microsoft%20Certified%3A%20Azure%20Fundamentals-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)](https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/)
-
-</div>
-
-<div align="center"><img src="assets/divider.svg" width="100%" height="24" alt="" /></div>
-
-### 🧊 3D Contribution Calendar
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-rainbow.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="profile-3d-contrib/profile-green-animate.svg" />
-  <img alt="3D contribution calendar" src="profile-3d-contrib/profile-night-rainbow.svg" />
-</picture>
-
-</div>
-
-<div align="center"><img src="assets/divider.svg" width="100%" height="24" alt="" /></div>
-
-### 🐍 Contribution Activity
+### 📊 Live Activity
 
 <div align="center">
 
@@ -93,11 +69,28 @@ scan complete — 0 implicit trusts found
   <img alt="contribution snake animation" src="https://raw.githubusercontent.com/BitWeaverDev/BitWeaverDev/output/github-contribution-grid-snake.svg" />
 </picture>
 
-<br/><br/>
+</div>
 
-<img src="https://streak-stats.demolab.com?user=BitWeaverDev&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+<table align="center">
+<tr>
+<td align="center" width="50%">
 
-<br/><br/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-rainbow.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="profile-3d-contrib/profile-green-animate.svg" />
+  <img alt="3D contribution calendar" src="profile-3d-contrib/profile-night-rainbow.svg" width="100%" />
+</picture>
+
+</td>
+<td align="center" width="50%">
+
+<img src="https://streak-stats.demolab.com?user=BitWeaverDev&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="100%" />
+
+</td>
+</tr>
+</table>
+
+<div align="center">
 
 ![Followers](https://img.shields.io/github/followers/BitWeaverDev?label=FOLLOWERS&style=for-the-badge&color=132339&labelColor=2E9EF7&logoColor=white)
 ![Profile Views](https://komarev.com/ghpvc/?username=BitWeaverDev&style=for-the-badge&color=132339&label=PROFILE+VIEWS)
@@ -113,4 +106,12 @@ scan complete — 0 implicit trusts found
 [![GitHub](https://img.shields.io/badge/GitHub-BitWeaverDev-2E9EF7?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117)](https://github.com/BitWeaverDev)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Ashkan%20Hadadi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117)](https://www.linkedin.com/in/ashkan-hadadi)
 
+</div>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="assets/footer-light.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="assets/footer.svg" />
+    <img src="assets/footer.svg" alt="" width="100%" />
+  </picture>
 </div>

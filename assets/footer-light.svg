@@ -1,0 +1,15 @@
+<svg width="100%" height="90" viewBox="0 0 1200 90" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="footer">
+  <defs>
+    <linearGradient id="fbgL" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f4f7fb"/>
+      <stop offset="50%" stop-color="#e7edf6"/>
+      <stop offset="100%" stop-color="#f4f7fb"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="90" rx="14" fill="url(#fbgL)"/>
+  <rect x="1.5" y="1.5" width="1197" height="87" rx="14" fill="none" stroke="#0B5FCC" stroke-opacity="0.25" stroke-width="1.5"/>
+  <g transform="translate(600,38)" text-anchor="middle">
+    <text font-family="'JetBrains Mono','Fira Code',monospace" font-size="15" fill="#0E8F84">// connection secure — thanks for stopping by</text>
+    <text y="26" font-family="'JetBrains Mono','Fira Code',monospace" font-size="12" fill="#7a8699">© BitWeaverDev · zero-trust, always</text>
+  </g>
+</svg>
