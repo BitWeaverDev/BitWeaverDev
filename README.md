@@ -6,10 +6,6 @@
   </picture>
 </div>
 
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1500&color=5EEAD4&center=true&vCenter=true&width=760&lines=Zero-Trust+Architecture+%7C+Never+Trust%2C+Always+Verify;Securing+Distributed+Systems+at+Scale;CISO+Dept+%40+ABN+AMRO;Python+%2B+Golang+%2B+Rust+%2B+Azure" alt="Typing SVG" />
-</div>
-
 <br/>
 
 ```bash
@@ -21,18 +17,6 @@ ROLE      : CISO Dept @ ABN AMRO
 MISSION   : Securing distributed systems at scale
 DOCTRINE  : Zero-Trust — never trust, always verify
 LOCATION  : Utrecht, The Netherlands
-
-$ ./scan_stack.sh --deep
-[OK] python        interpreter armed
-[OK] golang        binaries compiled
-[OK] rust          memory-safe binaries compiled
-[OK] azure         perimeter mapped
-[OK] bicep         infra declared, no drift
-[OK] terraform     state locked, plan verified
-[OK] helm          releases pinned & signed
-[OK] kubernetes    workloads isolated
-[OK] zero-trust    policy: DEFAULT DENY
-scan complete — 0 implicit trusts found
 ```
 
 <div align="center">
@@ -79,11 +63,6 @@ scan complete — 0 implicit trusts found
   <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=BitWeaverDev&background=F4F7FB&border=0B5FCC&ring=0E8F84&fire=6D4FD1&currStreakNum=17223B&sideNums=17223B&sideLabels=57606F&currStreakLabel=0E8F84&dates=7A8699&border_radius=14" />
   <img alt="GitHub Streak" src="https://streak-stats.demolab.com?user=BitWeaverDev&background=05070D&border=2E9EF7&ring=5EEAD4&fire=A78BFA&currStreakNum=FFFFFF&sideNums=FFFFFF&sideLabels=8B98A5&currStreakLabel=5EEAD4&dates=5B6577&border_radius=14" />
 </picture>
-
-<br/><br/>
-
-![Followers](https://img.shields.io/github/followers/BitWeaverDev?label=FOLLOWERS&style=for-the-badge&color=132339&labelColor=2E9EF7&logoColor=white)
-![Profile Views](https://komarev.com/ghpvc/?username=BitWeaverDev&style=for-the-badge&color=132339&label=PROFILE+VIEWS)
 
 </div>
 
