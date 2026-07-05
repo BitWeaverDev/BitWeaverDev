@@ -59,6 +59,30 @@ scan complete — 0 implicit trusts found
 
 <div align="center"><img src="assets/divider.svg" width="100%" height="24" alt="" /></div>
 
+### 🎓 Certifications
+
+<div align="center">
+
+[![AZ-900](https://img.shields.io/badge/AZ--900-Microsoft%20Certified%3A%20Azure%20Fundamentals-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)](https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/)
+
+</div>
+
+<div align="center"><img src="assets/divider.svg" width="100%" height="24" alt="" /></div>
+
+### 🧊 3D Contribution Calendar
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-rainbow.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="profile-3d-contrib/profile-green-animate.svg" />
+  <img alt="3D contribution calendar" src="profile-3d-contrib/profile-night-rainbow.svg" />
+</picture>
+
+</div>
+
+<div align="center"><img src="assets/divider.svg" width="100%" height="24" alt="" /></div>
+
 ### 🐍 Contribution Activity
 
 <div align="center">
