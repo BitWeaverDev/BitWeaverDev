@@ -95,6 +95,20 @@ scan complete — 0 implicit trusts found
   </picture>
 </div>
 
+### 🌐 Open Source Contributions
+
+<!-- CONTRIB-LIST:START -->
+_Building up open-source contributions — check back soon!_
+<!-- CONTRIB-LIST:END -->
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="assets/divider-light.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="assets/divider.svg" />
+    <img src="assets/divider.svg" width="100%" height="24" alt="" />
+  </picture>
+</div>
+
 <div align="center">
 
 ### 📡 Connect
