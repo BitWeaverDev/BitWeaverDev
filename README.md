@@ -59,9 +59,9 @@ LOCATION  : Utrecht, The Netherlands
 <br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=BitWeaverDev&background=05070D&border=2E9EF7&ring=5EEAD4&fire=A78BFA&currStreakNum=FFFFFF&sideNums=FFFFFF&sideLabels=8B98A5&currStreakLabel=5EEAD4&dates=5B6577&border_radius=14" />
-  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=BitWeaverDev&background=F4F7FB&border=0B5FCC&ring=0E8F84&fire=6D4FD1&currStreakNum=17223B&sideNums=17223B&sideLabels=57606F&currStreakLabel=0E8F84&dates=7A8699&border_radius=14" />
-  <img alt="GitHub Streak" src="https://streak-stats.demolab.com?user=BitWeaverDev&background=05070D&border=2E9EF7&ring=5EEAD4&fire=A78BFA&currStreakNum=FFFFFF&sideNums=FFFFFF&sideLabels=8B98A5&currStreakLabel=5EEAD4&dates=5B6577&border_radius=14" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/streak.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/streak-light.svg" />
+  <img alt="GitHub Streak" src="assets/streak.svg" />
 </picture>
 
 </div>

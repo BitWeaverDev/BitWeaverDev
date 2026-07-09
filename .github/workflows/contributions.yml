@@ -1,4 +1,4 @@
-name: update open source contributions
+name: update profile data
 
 on:
   schedule:
@@ -21,10 +21,15 @@ jobs:
           GH_TOKEN: ${{ secrets.CONTRIB_PAT }}
           GH_USERNAME: ${{ github.repository_owner }}
         run: python .github/scripts/update_contributions.py
+      - name: Generate streak card
+        env:
+          GH_TOKEN: ${{ secrets.CONTRIB_PAT }}
+          GH_USERNAME: ${{ github.repository_owner }}
+        run: python .github/scripts/update_streak.py
       - name: Commit changes
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add README.md
-          git diff --cached --quiet || git commit -m "chore: update open source contributions"
+          git add README.md assets/streak.svg assets/streak-light.svg
+          git diff --cached --quiet || git commit -m "chore: update open source contributions and streak card"
           git push
