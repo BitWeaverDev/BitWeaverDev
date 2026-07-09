@@ -81,6 +81,7 @@ LOCATION  : Utrecht, The Netherlands
 - [astral-sh/ruff](https://github.com/astral-sh/ruff) — An extremely fast Python linter and code formatter, written in Rust.
 - [pola-rs/polars](https://github.com/pola-rs/polars) — Extremely fast Query Engine for DataFrames, written in Rust
 - [j178/prek](https://github.com/j178/prek) — ⚡ A fast Git hook manager written in Rust, designed as a drop-in alternative to pre-commit, reimagined.
+- [hashicorp/terraform-provider-azurerm](https://github.com/hashicorp/terraform-provider-azurerm) — Terraform provider for Azure Resource Manager
 - [MatthewMckee4/karva](https://github.com/MatthewMckee4/karva) — An extremely fast Python test framework, written in Rust. 
 <!-- CONTRIB-LIST:END -->
 
