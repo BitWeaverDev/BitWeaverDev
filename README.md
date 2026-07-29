@@ -83,6 +83,7 @@ LOCATION  : Utrecht, The Netherlands
 - [pola-rs/polars](https://github.com/pola-rs/polars) — Extremely fast Query Engine for DataFrames, written in Rust
 - [j178/prek](https://github.com/j178/prek) — ⚡ A fast Git hook manager written in Rust, designed as a drop-in alternative to pre-commit, reimagined.
 - [sparckles/Robyn](https://github.com/sparckles/Robyn) — Robyn is a Super Fast Async Python Web Framework with a Rust runtime.
+- [emmett-framework/granian](https://github.com/emmett-framework/granian) — A Rust HTTP server for Python applications
 - [hashicorp/terraform-provider-azurerm](https://github.com/hashicorp/terraform-provider-azurerm) — Terraform provider for Azure Resource Manager
 - [MatthewMckee4/karva](https://github.com/MatthewMckee4/karva) — A Python test framework, written in Rust.
 <!-- CONTRIB-LIST:END -->
