@@ -69,11 +69,15 @@ def main():
     ranked = sorted(repos.values(), key=lambda r: r["stargazerCount"], reverse=True)[:MAX_REPOS]
 
     if ranked:
-        lines = []
+        rows = ["| Repository | Description | Stars |", "|---|---|---|"]
         for r in ranked:
-            desc = f" — {r['description']}" if r.get("description") else ""
-            lines.append(f"- [{r['nameWithOwner']}]({r['url']}){desc}")
-        block = "\n".join(lines)
+            desc = r.get("description") or "—"
+            badge = (
+                f"![stars](https://img.shields.io/github/stars/{r['nameWithOwner']}"
+                "?style=flat-square&logo=github&logoColor=white&labelColor=0d1117&color=2E9EF7)"
+            )
+            rows.append(f"| [**{r['nameWithOwner']}**]({r['url']}) | {desc} | {badge} |")
+        block = "\n".join(rows)
     else:
         block = "_Building up open-source contributions — check back soon!_"
 
