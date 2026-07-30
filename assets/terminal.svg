@@ -1,0 +1,45 @@
+<svg width="100%" height="304" viewBox="0 0 1200 304" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="whoami / cat clearance.txt">
+  <defs>
+    <linearGradient id="termBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05070d"/>
+      <stop offset="50%" stop-color="#0d1730"/>
+      <stop offset="100%" stop-color="#05070d"/>
+    </linearGradient>
+    <linearGradient id="termNameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2E9EF7">
+        <animate attributeName="stop-color" values="#2E9EF7;#5eead4;#a78bfa;#2E9EF7" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#5eead4">
+        <animate attributeName="stop-color" values="#5eead4;#a78bfa;#2E9EF7;#5eead4" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#2E9EF7">
+        <animate attributeName="stop-color" values="#2E9EF7;#5eead4;#a78bfa;#2E9EF7" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="304" rx="18" fill="url(#termBg)"/>
+  <rect x="1.5" y="1.5" width="1197" height="301" rx="18" fill="none" stroke="#2E9EF7" stroke-opacity="0.35" stroke-width="1.5"/>
+
+  <path d="M0,44 H1200" stroke="#2E9EF7" stroke-opacity="0.25" stroke-width="1"/>
+  <circle cx="34" cy="22" r="6.5" fill="#ff5f57" fill-opacity="0.85"/>
+  <circle cx="56" cy="22" r="6.5" fill="#febc2e" fill-opacity="0.85"/>
+  <circle cx="78" cy="22" r="6.5" fill="#28c840" fill-opacity="0.85"/>
+  <text x="600" y="27" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',monospace" font-size="13" fill="#8b98a5">root@zero-trust: ~</text>
+
+  <g font-family="'JetBrains Mono','Fira Code',monospace" font-size="20">
+    <text x="34" y="90"><tspan fill="#5eead4">$</tspan><tspan fill="#e6edf7" dx="10">whoami</tspan></text>
+    <text x="34" y="128" font-size="26" font-weight="700" fill="url(#termNameGrad)">BitWeaverDev</text>
+
+    <text x="34" y="172"><tspan fill="#5eead4">$</tspan><tspan fill="#e6edf7" dx="10">cat clearance.txt</tspan></text>
+    <g font-size="18">
+      <text x="34" y="204"><tspan fill="#2E9EF7">ROLE</tspan><tspan fill="#45536b">      : </tspan><tspan fill="#dbe4f3">CISO Dept @ ABN AMRO</tspan></text>
+      <text x="34" y="230"><tspan fill="#2E9EF7">MISSION</tspan><tspan fill="#45536b">   : </tspan><tspan fill="#dbe4f3">Securing distributed systems at scale</tspan></text>
+      <text x="34" y="256"><tspan fill="#2E9EF7">DOCTRINE</tspan><tspan fill="#45536b">  : </tspan><tspan fill="#dbe4f3">Zero-Trust — never trust, always verify</tspan></text>
+      <text x="34" y="282"><tspan fill="#2E9EF7">LOCATION</tspan><tspan fill="#45536b">  : </tspan><tspan fill="#dbe4f3">Utrecht, The Netherlands</tspan></text>
+    </g>
+  </g>
+  <rect x="640" y="268" width="10" height="17" fill="#5eead4">
+    <animate attributeName="opacity" values="1;1;0;0" dur="1s" repeatCount="indefinite"/>
+  </rect>
+</svg>

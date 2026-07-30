@@ -8,16 +8,13 @@
 
 <br/>
 
-```bash
-$ whoami
-BitWeaverDev
-
-$ cat clearance.txt
-ROLE      : CISO Dept @ ABN AMRO
-MISSION   : Securing distributed systems at scale
-DOCTRINE  : Zero-Trust — never trust, always verify
-LOCATION  : Utrecht, The Netherlands
-```
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="assets/terminal-light.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="assets/terminal.svg" />
+    <img src="assets/terminal.svg" alt="whoami / cat clearance.txt" width="100%" />
+  </picture>
+</div>
 
 <div align="center">
   <picture>
@@ -27,7 +24,7 @@ LOCATION  : Utrecht, The Netherlands
   </picture>
 </div>
 
-### 🛠️ Toolchain
+### 🛠️ Stack
 
 <div align="center">
 <sub><b>LANGUAGES</b></sub><br/>
@@ -38,15 +35,7 @@ LOCATION  : Utrecht, The Netherlands
 <img src="https://skillicons.dev/icons?i=kubernetes,docker,linux,git,bash,vscode" height="52" alt="Kubernetes, Docker, Linux, Git, Bash, VS Code" />
 </div>
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="assets/divider-light.svg" />
-    <source media="(prefers-color-scheme: dark)" srcset="assets/divider.svg" />
-    <img src="assets/divider.svg" width="100%" height="24" alt="" />
-  </picture>
-</div>
-
-### 💻 Languages I Ship In
+<br/>
 
 <div align="center">
 
@@ -56,10 +45,8 @@ LOCATION  : Utrecht, The Netherlands
   <img alt="Languages used across my commits" src="assets/languages.svg" />
 </picture>
 
-</div>
-
-<div align="center">
 <sub><i>Computed from my real commit history across contributed repositories — refreshed daily.</i></sub>
+
 </div>
 
 <div align="center">
@@ -73,15 +60,17 @@ LOCATION  : Utrecht, The Netherlands
 ### 🌐 Open Source Contributions
 
 <!-- CONTRIB-LIST:START -->
-- [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) — Production-Grade Container Scheduling and Management
-- [astral-sh/uv](https://github.com/astral-sh/uv) — An extremely fast Python package and project manager, written in Rust.
-- [astral-sh/ruff](https://github.com/astral-sh/ruff) — An extremely fast Python linter and code formatter, written in Rust.
-- [pola-rs/polars](https://github.com/pola-rs/polars) — Extremely fast Query Engine for DataFrames, written in Rust
-- [j178/prek](https://github.com/j178/prek) — ⚡ A fast Git hook manager written in Rust, designed as a drop-in alternative to pre-commit, reimagined.
-- [sparckles/Robyn](https://github.com/sparckles/Robyn) — Robyn is a Super Fast Async Python Web Framework with a Rust runtime.
-- [emmett-framework/granian](https://github.com/emmett-framework/granian) — A Rust HTTP server for Python applications
-- [hashicorp/terraform-provider-azurerm](https://github.com/hashicorp/terraform-provider-azurerm) — Terraform provider for Azure Resource Manager
-- [MatthewMckee4/karva](https://github.com/MatthewMckee4/karva) — A Python test framework, written in Rust.
+| Repository | Description | Stars |
+|---|---|---|
+| [**kubernetes/kubernetes**](https://github.com/kubernetes/kubernetes) | Production-Grade Container Scheduling and Management | ![stars](https://img.shields.io/github/stars/kubernetes/kubernetes?style=flat-square&logo=github&logoColor=white&labelColor=0d1117&color=2E9EF7) |
+| [**astral-sh/uv**](https://github.com/astral-sh/uv) | An extremely fast Python package and project manager, written in Rust. | ![stars](https://img.shields.io/github/stars/astral-sh/uv?style=flat-square&logo=github&logoColor=white&labelColor=0d1117&color=2E9EF7) |
+| [**astral-sh/ruff**](https://github.com/astral-sh/ruff) | An extremely fast Python linter and code formatter, written in Rust. | ![stars](https://img.shields.io/github/stars/astral-sh/ruff?style=flat-square&logo=github&logoColor=white&labelColor=0d1117&color=2E9EF7) |
+| [**pola-rs/polars**](https://github.com/pola-rs/polars) | Extremely fast Query Engine for DataFrames, written in Rust | ![stars](https://img.shields.io/github/stars/pola-rs/polars?style=flat-square&logo=github&logoColor=white&labelColor=0d1117&color=2E9EF7) |
+| [**j178/prek**](https://github.com/j178/prek) | ⚡ A fast Git hook manager written in Rust, designed as a drop-in alternative to pre-commit, reimagined. | ![stars](https://img.shields.io/github/stars/j178/prek?style=flat-square&logo=github&logoColor=white&labelColor=0d1117&color=2E9EF7) |
+| [**sparckles/Robyn**](https://github.com/sparckles/Robyn) | Robyn is a Super Fast Async Python Web Framework with a Rust runtime. | ![stars](https://img.shields.io/github/stars/sparckles/Robyn?style=flat-square&logo=github&logoColor=white&labelColor=0d1117&color=2E9EF7) |
+| [**emmett-framework/granian**](https://github.com/emmett-framework/granian) | A Rust HTTP server for Python applications | ![stars](https://img.shields.io/github/stars/emmett-framework/granian?style=flat-square&logo=github&logoColor=white&labelColor=0d1117&color=2E9EF7) |
+| [**hashicorp/terraform-provider-azurerm**](https://github.com/hashicorp/terraform-provider-azurerm) | Terraform provider for Azure Resource Manager | ![stars](https://img.shields.io/github/stars/hashicorp/terraform-provider-azurerm?style=flat-square&logo=github&logoColor=white&labelColor=0d1117&color=2E9EF7) |
+| [**MatthewMckee4/karva**](https://github.com/MatthewMckee4/karva) | A Python test framework, written in Rust. | ![stars](https://img.shields.io/github/stars/MatthewMckee4/karva?style=flat-square&logo=github&logoColor=white&labelColor=0d1117&color=2E9EF7) |
 <!-- CONTRIB-LIST:END -->
 
 <div align="center">
