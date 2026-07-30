@@ -1,0 +1,21 @@
+<svg width="495" height="172" viewBox="0 0 495 172" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Languages used across commits">
+  <rect x="1" y="1" width="493" height="170" rx="14" fill="#05070D" stroke="#2E9EF7" stroke-width="1.5"/>
+  <g font-family="'JetBrains Mono','Fira Code',monospace">
+    <text x="24" y="24" font-size="12" font-weight="700" letter-spacing="1" fill="#8B98A5">LANGUAGES · BY COMMIT ACTIVITY</text>
+    <circle cx="29" cy="28" r="5" fill="#dea584"/>
+    <text x="42" y="32" font-size="13" font-weight="600" fill="#FFFFFF">Rust</text>
+    <text x="471" y="32" font-size="12" font-weight="600" fill="#5EEAD4" text-anchor="end">58.0%</text>
+    <rect x="24" y="38" width="447" height="7" rx="3.5" fill="#111a2e"/>
+    <rect x="24" y="38" width="259.3" height="7" rx="3.5" fill="#dea584"/>
+    <circle cx="29" cy="68" r="5" fill="#3572A5"/>
+    <text x="42" y="72" font-size="13" font-weight="600" fill="#FFFFFF">Python</text>
+    <text x="471" y="72" font-size="12" font-weight="600" fill="#5EEAD4" text-anchor="end">24.0%</text>
+    <rect x="24" y="78" width="447" height="7" rx="3.5" fill="#111a2e"/>
+    <rect x="24" y="78" width="107.3" height="7" rx="3.5" fill="#3572A5"/>
+    <circle cx="29" cy="108" r="5" fill="#00ADD8"/>
+    <text x="42" y="112" font-size="13" font-weight="600" fill="#FFFFFF">Go</text>
+    <text x="471" y="112" font-size="12" font-weight="600" fill="#5EEAD4" text-anchor="end">18.0%</text>
+    <rect x="24" y="118" width="447" height="7" rx="3.5" fill="#111a2e"/>
+    <rect x="24" y="118" width="80.5" height="7" rx="3.5" fill="#00ADD8"/>
+  </g>
+</svg>

@@ -46,24 +46,20 @@ LOCATION  : Utrecht, The Netherlands
   </picture>
 </div>
 
-### 📊 Live Activity
+### 💻 Languages I Ship In
 
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BitWeaverDev/BitWeaverDev/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/BitWeaverDev/BitWeaverDev/output/github-contribution-grid-snake.svg" />
-  <img alt="contribution snake animation" src="https://raw.githubusercontent.com/BitWeaverDev/BitWeaverDev/output/github-contribution-grid-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/languages.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/languages-light.svg" />
+  <img alt="Languages used across my commits" src="assets/languages.svg" />
 </picture>
 
-<br/>
+</div>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/streak.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/streak-light.svg" />
-  <img alt="GitHub Streak" src="assets/streak.svg" />
-</picture>
-
+<div align="center">
+<sub><i>Computed from my real commit history across contributed repositories — refreshed daily.</i></sub>
 </div>
 
 <div align="center">
@@ -94,15 +90,6 @@ LOCATION  : Utrecht, The Netherlands
     <source media="(prefers-color-scheme: dark)" srcset="assets/divider.svg" />
     <img src="assets/divider.svg" width="100%" height="24" alt="" />
   </picture>
-</div>
-
-<div align="center">
-
-### 📡 Connect
-
-[![GitHub](https://img.shields.io/badge/GitHub-BitWeaverDev-2E9EF7?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117)](https://github.com/BitWeaverDev)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ashkan%20Hadadi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117)](https://www.linkedin.com/in/ashkan-hadadi)
-
 </div>
 
 <div align="center">
