@@ -3,7 +3,6 @@ import os
 import re
 import sys
 import urllib.request
-from datetime import datetime, timezone
 
 TOKEN = os.environ["GH_TOKEN"]
 USERNAME = os.environ["GH_USERNAME"]
@@ -24,59 +23,50 @@ def gql(query, variables):
     return data
 
 
-CREATED_QUERY = """
-query($login: String!) {
-  user(login: $login) { createdAt }
-}
-"""
-
-CONTRIB_QUERY = """
-query($login: String!, $from: DateTime!, $to: DateTime!) {
-  user(login: $login) {
-    contributionsCollection(from: $from, to: $to) {
-      commitContributionsByRepository(maxRepositories: 100) {
-        repository { nameWithOwner url description stargazerCount isFork isPrivate owner { login } }
-      }
-      pullRequestContributionsByRepository(maxRepositories: 100) {
-        repository { nameWithOwner url description stargazerCount isFork isPrivate owner { login } }
+MERGED_PRS_QUERY = """
+query($q: String!, $after: String) {
+  search(query: $q, type: ISSUE, first: 100, after: $after) {
+    nodes {
+      ... on PullRequest {
+        repository { nameWithOwner url isPrivate owner { login } }
       }
     }
+    pageInfo { hasNextPage endCursor }
   }
 }
 """
 
 
+def merged_pr_counts_by_repo():
+    search_query = f"author:{USERNAME} is:pr is:merged"
+    counts = {}
+    urls = {}
+    after = None
+    while True:
+        data = gql(MERGED_PRS_QUERY, {"q": search_query, "after": after})["data"]["search"]
+        for node in data["nodes"]:
+            repo = node["repository"]
+            if repo["isPrivate"]:
+                continue
+            if repo["owner"]["login"].lower() == USERNAME.lower():
+                continue
+            name = repo["nameWithOwner"]
+            counts[name] = counts.get(name, 0) + 1
+            urls[name] = repo["url"]
+        if not data["pageInfo"]["hasNextPage"]:
+            break
+        after = data["pageInfo"]["endCursor"]
+    return counts, urls
+
+
 def main():
-    created = gql(CREATED_QUERY, {"login": USERNAME})["data"]["user"]["createdAt"]
-    start_year = int(created[:4])
-    now = datetime.now(timezone.utc)
-
-    repos = {}
-    for year in range(start_year, now.year + 1):
-        frm = f"{year}-01-01T00:00:00Z"
-        to = f"{year + 1}-01-01T00:00:00Z" if year < now.year else now.strftime("%Y-%m-%dT%H:%M:%SZ")
-        data = gql(CONTRIB_QUERY, {"login": USERNAME, "from": frm, "to": to})
-        cc = data["data"]["user"]["contributionsCollection"]
-        for bucket in ("commitContributionsByRepository", "pullRequestContributionsByRepository"):
-            for entry in cc[bucket]:
-                repo = entry["repository"]
-                if repo["isPrivate"]:
-                    continue
-                if repo["owner"]["login"].lower() == USERNAME.lower():
-                    continue
-                repos[repo["nameWithOwner"]] = repo
-
-    ranked = sorted(repos.values(), key=lambda r: r["stargazerCount"], reverse=True)[:MAX_REPOS]
+    counts, urls = merged_pr_counts_by_repo()
+    ranked = sorted(counts.items(), key=lambda kv: kv[1], reverse=True)[:MAX_REPOS]
 
     if ranked:
-        rows = ["| Repository | Description | Stars |", "|---|---|---|"]
-        for r in ranked:
-            desc = r.get("description") or "—"
-            badge = (
-                f"![stars](https://img.shields.io/github/stars/{r['nameWithOwner']}"
-                "?style=flat-square&logo=github&logoColor=white&labelColor=0d1117&color=2E9EF7)"
-            )
-            rows.append(f"| [**{r['nameWithOwner']}**]({r['url']}) | {desc} | {badge} |")
+        rows = ["| Repository | Merged PRs |", "|---|---|"]
+        for name, count in ranked:
+            rows.append(f"| [**{name}**]({urls[name]}) | {count} |")
         block = "\n".join(rows)
     else:
         block = "_Building up open-source contributions — check back soon!_"
