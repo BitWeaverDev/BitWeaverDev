@@ -92,7 +92,7 @@ def collect_language_weights():
 def build_svg(langs, palette):
     bg, border, track, label_color, pct_color, title_color = palette
     row_h = 40
-    top_pad = 34
+    top_pad = 52
     bottom_pad = 18
     height = top_pad + len(langs) * row_h + bottom_pad
     bar_x = 24

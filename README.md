@@ -60,17 +60,12 @@
 ### 🌐 Open Source Contributions
 
 <!-- CONTRIB-LIST:START -->
-| Repository | Description | Stars |
-|---|---|---|
-| [**kubernetes/kubernetes**](https://github.com/kubernetes/kubernetes) | Production-Grade Container Scheduling and Management | ![stars](https://img.shields.io/github/stars/kubernetes/kubernetes?style=flat-square&logo=github&logoColor=white&labelColor=0d1117&color=2E9EF7) |
-| [**astral-sh/uv**](https://github.com/astral-sh/uv) | An extremely fast Python package and project manager, written in Rust. | ![stars](https://img.shields.io/github/stars/astral-sh/uv?style=flat-square&logo=github&logoColor=white&labelColor=0d1117&color=2E9EF7) |
-| [**astral-sh/ruff**](https://github.com/astral-sh/ruff) | An extremely fast Python linter and code formatter, written in Rust. | ![stars](https://img.shields.io/github/stars/astral-sh/ruff?style=flat-square&logo=github&logoColor=white&labelColor=0d1117&color=2E9EF7) |
-| [**pola-rs/polars**](https://github.com/pola-rs/polars) | Extremely fast Query Engine for DataFrames, written in Rust | ![stars](https://img.shields.io/github/stars/pola-rs/polars?style=flat-square&logo=github&logoColor=white&labelColor=0d1117&color=2E9EF7) |
-| [**j178/prek**](https://github.com/j178/prek) | ⚡ A fast Git hook manager written in Rust, designed as a drop-in alternative to pre-commit, reimagined. | ![stars](https://img.shields.io/github/stars/j178/prek?style=flat-square&logo=github&logoColor=white&labelColor=0d1117&color=2E9EF7) |
-| [**sparckles/Robyn**](https://github.com/sparckles/Robyn) | Robyn is a Super Fast Async Python Web Framework with a Rust runtime. | ![stars](https://img.shields.io/github/stars/sparckles/Robyn?style=flat-square&logo=github&logoColor=white&labelColor=0d1117&color=2E9EF7) |
-| [**emmett-framework/granian**](https://github.com/emmett-framework/granian) | A Rust HTTP server for Python applications | ![stars](https://img.shields.io/github/stars/emmett-framework/granian?style=flat-square&logo=github&logoColor=white&labelColor=0d1117&color=2E9EF7) |
-| [**hashicorp/terraform-provider-azurerm**](https://github.com/hashicorp/terraform-provider-azurerm) | Terraform provider for Azure Resource Manager | ![stars](https://img.shields.io/github/stars/hashicorp/terraform-provider-azurerm?style=flat-square&logo=github&logoColor=white&labelColor=0d1117&color=2E9EF7) |
-| [**MatthewMckee4/karva**](https://github.com/MatthewMckee4/karva) | A Python test framework, written in Rust. | ![stars](https://img.shields.io/github/stars/MatthewMckee4/karva?style=flat-square&logo=github&logoColor=white&labelColor=0d1117&color=2E9EF7) |
+| Repository | Merged PRs |
+|---|---|
+| [**pola-rs/polars**](https://github.com/pola-rs/polars) | 3 |
+| [**MatthewMckee4/karva**](https://github.com/MatthewMckee4/karva) | 2 |
+| [**astral-sh/ruff**](https://github.com/astral-sh/ruff) | 1 |
+| [**astral-sh/uv**](https://github.com/astral-sh/uv) | 1 |
 <!-- CONTRIB-LIST:END -->
 
 <div align="center">
