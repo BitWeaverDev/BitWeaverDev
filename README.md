@@ -16,6 +16,16 @@
   </picture>
 </div>
 
+<br/>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="assets/stats-light.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="assets/stats.svg" />
+    <img src="assets/stats.svg" alt="OSS projects contributed to, merged PRs, top language" />
+  </picture>
+</div>
+
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: light)" srcset="assets/divider-light.svg" />
@@ -32,7 +42,7 @@
 <sub><b>CLOUD & IaC</b></sub><br/>
 <img src="https://skillicons.dev/icons?i=azure,terraform" height="52" alt="Azure, Terraform" /><img src="assets/icon-bicep.svg" height="52" alt="Bicep" /><img src="assets/icon-helm.svg" height="52" alt="Helm" /><br/>
 <sub><b>PLATFORM & OPS</b></sub><br/>
-<img src="https://skillicons.dev/icons?i=kubernetes,docker,linux,git,bash,vscode" height="52" alt="Kubernetes, Docker, Linux, Git, Bash, VS Code" />
+<img src="https://skillicons.dev/icons?i=kubernetes,docker,linux,git" height="52" alt="Kubernetes, Docker, Linux, Git" />
 </div>
 
 <br/>
