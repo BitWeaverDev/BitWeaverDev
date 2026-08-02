@@ -37,7 +37,7 @@
 ### 🛠️ Stack
 
 <div align="center">
-<sub><b>LANGUAGES</b></sub><br/>
+<sub><b>CORE LANGUAGES</b></sub><br/>
 <img src="https://skillicons.dev/icons?i=py,go,rust" height="52" alt="Python, Go, Rust" /><br/>
 <sub><b>CLOUD & IaC</b></sub><br/>
 <img src="https://skillicons.dev/icons?i=azure,terraform" height="52" alt="Azure, Terraform" /><img src="assets/icon-bicep.svg" height="52" alt="Bicep" /><img src="assets/icon-helm.svg" height="52" alt="Helm" /><br/>
