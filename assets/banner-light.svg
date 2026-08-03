@@ -93,18 +93,14 @@
       <text x="46" y="19" text-anchor="middle" fill="#0B5FCC">PYTHON</text>
     </g>
     <g transform="translate(284,178)">
-      <rect width="92" height="28" rx="14" fill="#ffffff" stroke="#0B5FCC" stroke-width="1"/>
-      <text x="46" y="19" text-anchor="middle" fill="#0B5FCC">GOLANG</text>
-    </g>
-    <g transform="translate(388,178)">
       <rect width="70" height="28" rx="14" fill="#ffffff" stroke="#0B5FCC" stroke-width="1"/>
       <text x="35" y="19" text-anchor="middle" fill="#0B5FCC">RUST</text>
     </g>
-    <g transform="translate(470,178)">
+    <g transform="translate(366,178)">
       <rect width="82" height="28" rx="14" fill="#ffffff" stroke="#0B5FCC" stroke-width="1"/>
       <text x="41" y="19" text-anchor="middle" fill="#0B5FCC">AZURE</text>
     </g>
-    <g transform="translate(564,178)">
+    <g transform="translate(460,178)">
       <rect width="128" height="28" rx="14" fill="#ffffff" stroke="#0B5FCC" stroke-width="1"/>
       <text x="64" y="19" text-anchor="middle" fill="#0B5FCC">ZERO-TRUST</text>
     </g>
