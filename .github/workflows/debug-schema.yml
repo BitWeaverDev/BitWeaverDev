@@ -12,7 +12,7 @@ jobs:
       - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
           python-version: "3.x"
-      - name: Introspect CommitContributionsByRepository
+      - name: Test corrected commit-count query against real data
         env:
           GH_TOKEN: ${{ secrets.CONTRIB_PAT }}
           GH_USERNAME: ${{ github.repository_owner }}
@@ -20,19 +20,31 @@ jobs:
           python - <<'PY'
           import sys
           sys.path.insert(0, ".github/scripts")
-          from lib import gql
+          from lib import gql, USERNAME
 
           Q = """
-          query {
-            a: __type(name: "CommitContributionsByRepository") {
-              fields { name type { name kind ofType { name kind ofType { name kind } } } }
-            }
-            b: __type(name: "CreatedCommitContribution") {
-              fields { name type { name kind ofType { name kind ofType { name kind } } } }
+          query($login: String!, $from: DateTime!, $to: DateTime!) {
+            user(login: $login) {
+              contributionsCollection(from: $from, to: $to) {
+                commitContributionsByRepository(maxRepositories: 100) {
+                  contributions(first: 100) {
+                    totalCount
+                    nodes { commitCount occurredAt }
+                  }
+                  repository { nameWithOwner isPrivate }
+                }
+              }
             }
           }
           """
-          data = gql(Q, {})
-          import json
-          print(json.dumps(data, indent=2))
+          data = gql(Q, {"login": USERNAME, "from": "2026-01-01T00:00:00Z", "to": "2026-08-03T00:00:00Z"})
+          cc = data["data"]["user"]["contributionsCollection"]["commitContributionsByRepository"]
+          for entry in cc:
+              repo = entry["repository"]
+              contrib = entry["contributions"]
+              summed = sum(n["commitCount"] for n in contrib["nodes"])
+              print(f"{repo['nameWithOwner']!r} private={repo['isPrivate']} "
+                    f"connection.totalCount={contrib['totalCount']} "
+                    f"sum(node.commitCount)={summed} "
+                    f"num_nodes={len(contrib['nodes'])}")
           PY
