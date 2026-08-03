@@ -73,8 +73,9 @@
 | Repository | Merged PRs |
 |---|---|
 | [**pola-rs/polars**](https://github.com/pola-rs/polars) | 3 |
+| [**astral-sh/ruff**](https://github.com/astral-sh/ruff) | 2 |
 | [**MatthewMckee4/karva**](https://github.com/MatthewMckee4/karva) | 2 |
-| [**astral-sh/ruff**](https://github.com/astral-sh/ruff) | 1 |
+| [**j178/prek**](https://github.com/j178/prek) | 1 |
 | [**astral-sh/uv**](https://github.com/astral-sh/uv) | 1 |
 <!-- CONTRIB-LIST:END -->
 

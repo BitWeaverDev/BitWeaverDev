@@ -1,11 +1,11 @@
 <svg width="479" height="40" viewBox="0 0 479 40" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Profile stats">
   <g transform="translate(0,0)">
     <rect width="156" height="40" rx="20" fill="#ffffff" stroke="#0B5FCC" stroke-width="1.2"/>
-    <text x="78.0" y="26" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',monospace" font-size="13" font-weight="700" fill="#0E8F84">4 OSS PROJECTS</text>
+    <text x="78.0" y="26" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',monospace" font-size="13" font-weight="700" fill="#0E8F84">5 OSS PROJECTS</text>
   </g>
   <g transform="translate(170,0)">
     <rect width="139" height="40" rx="20" fill="#ffffff" stroke="#0B5FCC" stroke-width="1.2"/>
-    <text x="69.5" y="26" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',monospace" font-size="13" font-weight="700" fill="#0E8F84">7 MERGED PRS</text>
+    <text x="69.5" y="26" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',monospace" font-size="13" font-weight="700" fill="#0E8F84">9 MERGED PRS</text>
   </g>
   <g transform="translate(323,0)">
     <rect width="156" height="40" rx="20" fill="#ffffff" stroke="#0B5FCC" stroke-width="1.2"/>
