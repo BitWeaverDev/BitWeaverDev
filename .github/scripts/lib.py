@@ -71,9 +71,12 @@ query($login: String!, $from: DateTime!, $to: DateTime!) {
   user(login: $login) {
     contributionsCollection(from: $from, to: $to) {
       commitContributionsByRepository(maxRepositories: 100) {
-        commitCount
+        contributions(first: 100) {
+          nodes { commitCount }
+        }
         repository {
           isPrivate
+          owner { login }
           languages(first: 8, orderBy: {field: SIZE, direction: DESC}) {
             edges { size node { name color } }
           }
@@ -88,6 +91,10 @@ query($login: String!, $from: DateTime!, $to: DateTime!) {
 def commit_language_weights():
     """Language mix derived from real commit history, weighted by commit count
     per repo and each language's byte share within that repo.
+
+    commitCount lives on the individual CreatedCommitContribution nodes (one per
+    day with activity), not directly on CommitContributionsByRepository, so it's
+    summed across contributions.nodes rather than read as a single field.
 
     Returns (weights, colors): {language: weighted_share}, {language: linguist_color}.
     """
@@ -104,15 +111,16 @@ def commit_language_weights():
         cc = data["data"]["user"]["contributionsCollection"]
         for entry in cc["commitContributionsByRepository"]:
             repo = entry["repository"]
-            if repo["isPrivate"]:
+            if repo["isPrivate"] or repo["owner"]["login"].lower() == USERNAME.lower():
                 continue
+            commit_count = sum(n["commitCount"] for n in entry["contributions"]["nodes"])
             edges = repo["languages"]["edges"]
             total_size = sum(e["size"] for e in edges)
             if total_size == 0:
                 continue
             for edge in edges:
                 name = edge["node"]["name"]
-                share = entry["commitCount"] * (edge["size"] / total_size)
+                share = commit_count * (edge["size"] / total_size)
                 weights[name] = weights.get(name, 0) + share
                 colors.setdefault(name, edge["node"]["color"] or FALLBACK_COLOR)
     return weights, colors
