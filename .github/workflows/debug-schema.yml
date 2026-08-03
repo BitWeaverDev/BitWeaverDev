@@ -1,0 +1,38 @@
+name: debug schema introspection
+
+on:
+  workflow_dispatch:
+
+jobs:
+  introspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.x"
+      - name: Introspect CommitContributionsByRepository
+        env:
+          GH_TOKEN: ${{ secrets.CONTRIB_PAT }}
+          GH_USERNAME: ${{ github.repository_owner }}
+        run: |
+          python - <<'PY'
+          import sys
+          sys.path.insert(0, ".github/scripts")
+          from lib import gql
+
+          Q = """
+          query {
+            a: __type(name: "CommitContributionsByRepository") {
+              fields { name type { name kind ofType { name kind ofType { name kind } } } }
+            }
+            b: __type(name: "CreatedCommitContribution") {
+              fields { name type { name kind ofType { name kind ofType { name kind } } } }
+            }
+          }
+          """
+          data = gql(Q, {})
+          import json
+          print(json.dumps(data, indent=2))
+          PY
