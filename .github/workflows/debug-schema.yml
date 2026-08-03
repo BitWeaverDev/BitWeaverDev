@@ -12,7 +12,7 @@ jobs:
       - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
           python-version: "3.x"
-      - name: Test corrected commit-count query against real data
+      - name: Validate the real lib.py functions end to end
         env:
           GH_TOKEN: ${{ secrets.CONTRIB_PAT }}
           GH_USERNAME: ${{ github.repository_owner }}
@@ -20,31 +20,16 @@ jobs:
           python - <<'PY'
           import sys
           sys.path.insert(0, ".github/scripts")
-          from lib import gql, USERNAME
+          from lib import merged_prs_by_repo, commit_language_weights
 
-          Q = """
-          query($login: String!, $from: DateTime!, $to: DateTime!) {
-            user(login: $login) {
-              contributionsCollection(from: $from, to: $to) {
-                commitContributionsByRepository(maxRepositories: 100) {
-                  contributions(first: 100) {
-                    totalCount
-                    nodes { commitCount occurredAt }
-                  }
-                  repository { nameWithOwner isPrivate }
-                }
-              }
-            }
-          }
-          """
-          data = gql(Q, {"login": USERNAME, "from": "2026-01-01T00:00:00Z", "to": "2026-08-03T00:00:00Z"})
-          cc = data["data"]["user"]["contributionsCollection"]["commitContributionsByRepository"]
-          for entry in cc:
-              repo = entry["repository"]
-              contrib = entry["contributions"]
-              summed = sum(n["commitCount"] for n in contrib["nodes"])
-              print(f"{repo['nameWithOwner']!r} private={repo['isPrivate']} "
-                    f"connection.totalCount={contrib['totalCount']} "
-                    f"sum(node.commitCount)={summed} "
-                    f"num_nodes={len(contrib['nodes'])}")
+          repos = merged_prs_by_repo()
+          print("merged_prs_by_repo():")
+          for name, info in repos.items():
+              print(f"  {name}: {info['count']} merged PRs")
+
+          weights, colors = commit_language_weights()
+          total = sum(weights.values())
+          print("commit_language_weights():")
+          for name, w in sorted(weights.items(), key=lambda kv: -kv[1]):
+              print(f"  {name}: {w:.2f} ({w/total*100:.1f}%) color={colors[name]}")
           PY
