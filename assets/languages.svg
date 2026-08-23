@@ -1,36 +1,21 @@
-<svg width="495" height="310" viewBox="0 0 495 310" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Languages used across commits">
-  <rect x="1" y="1" width="493" height="308" rx="14" fill="#05070D" stroke="#2E9EF7" stroke-width="1.5"/>
+<svg width="495" height="190" viewBox="0 0 495 190" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Languages used across commits">
+  <rect x="1" y="1" width="493" height="188" rx="14" fill="#05070D" stroke="#2E9EF7" stroke-width="1.5"/>
   <g font-family="'JetBrains Mono','Fira Code',monospace">
     <text x="24" y="24" font-size="12" font-weight="700" letter-spacing="1" fill="#8B98A5">LANGUAGES · BY COMMIT ACTIVITY</text>
     <circle cx="29" cy="46" r="5" fill="#dea584"/>
     <text x="42" y="50" font-size="13" font-weight="600" fill="#FFFFFF">Rust</text>
-    <text x="471" y="50" font-size="12" font-weight="600" fill="#5EEAD4" text-anchor="end">79.1%</text>
+    <text x="471" y="50" font-size="12" font-weight="600" fill="#5EEAD4" text-anchor="end">79.2%</text>
     <rect x="24" y="56" width="447" height="7" rx="3.5" fill="#111a2e"/>
-    <rect x="24" y="56" width="353.5" height="7" rx="3.5" fill="#dea584"/>
+    <rect x="24" y="56" width="353.9" height="7" rx="3.5" fill="#dea584"/>
     <circle cx="29" cy="86" r="5" fill="#3572A5"/>
     <text x="42" y="90" font-size="13" font-weight="600" fill="#FFFFFF">Python</text>
     <text x="471" y="90" font-size="12" font-weight="600" fill="#5EEAD4" text-anchor="end">11.5%</text>
     <rect x="24" y="96" width="447" height="7" rx="3.5" fill="#111a2e"/>
-    <rect x="24" y="96" width="51.5" height="7" rx="3.5" fill="#3572A5"/>
+    <rect x="24" y="96" width="51.4" height="7" rx="3.5" fill="#3572A5"/>
     <circle cx="29" cy="126" r="5" fill="#00ADD8"/>
     <text x="42" y="130" font-size="13" font-weight="600" fill="#FFFFFF">Go</text>
     <text x="471" y="130" font-size="12" font-weight="600" fill="#5EEAD4" text-anchor="end">9.1%</text>
     <rect x="24" y="136" width="447" height="7" rx="3.5" fill="#111a2e"/>
-    <rect x="24" y="136" width="40.6" height="7" rx="3.5" fill="#00ADD8"/>
-    <circle cx="29" cy="166" r="5" fill="#3178c6"/>
-    <text x="42" y="170" font-size="13" font-weight="600" fill="#FFFFFF">TypeScript</text>
-    <text x="471" y="170" font-size="12" font-weight="600" fill="#5EEAD4" text-anchor="end">0.1%</text>
-    <rect x="24" y="176" width="447" height="7" rx="3.5" fill="#111a2e"/>
-    <rect x="24" y="176" width="0.6" height="7" rx="3.5" fill="#3178c6"/>
-    <circle cx="29" cy="206" r="5" fill="#89e051"/>
-    <text x="42" y="210" font-size="13" font-weight="600" fill="#FFFFFF">Shell</text>
-    <text x="471" y="210" font-size="12" font-weight="600" fill="#5EEAD4" text-anchor="end">0.1%</text>
-    <rect x="24" y="216" width="447" height="7" rx="3.5" fill="#111a2e"/>
-    <rect x="24" y="216" width="0.3" height="7" rx="3.5" fill="#89e051"/>
-    <circle cx="29" cy="246" r="5" fill="#427819"/>
-    <text x="42" y="250" font-size="13" font-weight="600" fill="#FFFFFF">Makefile</text>
-    <text x="471" y="250" font-size="12" font-weight="600" fill="#5EEAD4" text-anchor="end">0.0%</text>
-    <rect x="24" y="256" width="447" height="7" rx="3.5" fill="#111a2e"/>
-    <rect x="24" y="256" width="0.1" height="7" rx="3.5" fill="#427819"/>
+    <rect x="24" y="136" width="40.7" height="7" rx="3.5" fill="#00ADD8"/>
   </g>
 </svg>
