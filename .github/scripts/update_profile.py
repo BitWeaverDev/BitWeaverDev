@@ -65,10 +65,24 @@ def build_language_svg(langs, palette):
 '''
 
 
+MIN_LANGUAGE_PCT = 1.0
+
+
 def render_language_cards(weights, colors):
     total = sum(weights.values())
-    ranked = sorted(weights.items(), key=lambda kv: kv[1], reverse=True)[:MAX_LANGUAGES]
-    langs = [(name, (w / total) * 100 if total else 0, colors[name]) for name, w in ranked]
+    ranked = sorted(weights.items(), key=lambda kv: kv[1], reverse=True)
+
+    langs = []
+    for name, w in ranked:
+        pct = (w / total) * 100 if total else 0
+        # Drop incidental languages (a stray Dockerfile/Makefile in an
+        # otherwise Rust repo, etc.) once at least one real entry is in,
+        # so the card doesn't pad itself out with noise near 0%.
+        if langs and pct < MIN_LANGUAGE_PCT:
+            break
+        langs.append((name, pct, colors[name]))
+        if len(langs) >= MAX_LANGUAGES:
+            break
 
     dark_palette = ("#05070D", "#2E9EF7", "#111a2e", "#FFFFFF", "#5EEAD4", "#8B98A5")
     light_palette = ("#F4F7FB", "#0B5FCC", "#dfe7f5", "#17223B", "#0E8F84", "#57606F")
