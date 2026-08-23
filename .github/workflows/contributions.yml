@@ -30,6 +30,6 @@ jobs:
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add README.md assets/languages.svg assets/languages-light.svg assets/stats.svg assets/stats-light.svg
+          git add assets/languages.svg assets/languages-light.svg assets/stats.svg assets/stats-light.svg assets/orbit.svg assets/orbit-light.svg
           git diff --cached --quiet || git commit -m "chore: update open source contributions and profile stats"
           git push

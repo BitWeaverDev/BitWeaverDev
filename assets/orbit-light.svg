@@ -1,0 +1,59 @@
+<svg width="700" height="520" viewBox="0 0 700 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Open source contribution network">
+  <defs><filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="3" result="blur"/>
+    <feMerge>
+      <feMergeNode in="blur"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter></defs>
+  <rect x="1" y="1" width="698" height="518" rx="18" fill="#F4F7FB" stroke="#0B5FCC" stroke-width="1.5"/>
+  <g stroke="#0E8F84" stroke-opacity="0.5" stroke-width="2.2" fill="none">
+    <path d="M18,36 L18,18 L36,18"/>
+    <path d="M664,18 L682,18 L682,36"/>
+    <path d="M18,484 L18,502 L36,502"/>
+    <path d="M664,502 L682,502 L682,484"/>
+  </g>
+  <text x="24" y="34" font-family="'JetBrains Mono','Fira Code',monospace" font-size="12" font-weight="700" letter-spacing="1" fill="#17223B" opacity="0.7">OPEN SOURCE · CONTRIBUTION NETWORK</text>
+  <g font-family="'JetBrains Mono','Fira Code',monospace">
+    <line x1="350.0" y1="274.0" x2="350.0" y2="84.0" stroke="#0B5FCC" stroke-width="1.2" stroke-dasharray="3 4" opacity="0.6"><animate attributeName="stroke-dashoffset" values="0;-14" dur="1.6s" repeatCount="indefinite"/></line><line x1="350.0" y1="274.0" x2="514.5" y2="179.0" stroke="#0B5FCC" stroke-width="1.2" stroke-dasharray="3 4" opacity="0.6"><animate attributeName="stroke-dashoffset" values="0;-14" dur="1.8s" repeatCount="indefinite"/></line><line x1="350.0" y1="274.0" x2="514.5" y2="369.0" stroke="#0B5FCC" stroke-width="1.2" stroke-dasharray="3 4" opacity="0.6"><animate attributeName="stroke-dashoffset" values="0;-14" dur="1.9s" repeatCount="indefinite"/></line><line x1="350.0" y1="274.0" x2="350.0" y2="464.0" stroke="#0B5FCC" stroke-width="1.2" stroke-dasharray="3 4" opacity="0.6"><animate attributeName="stroke-dashoffset" values="0;-14" dur="2.0s" repeatCount="indefinite"/></line><line x1="350.0" y1="274.0" x2="185.5" y2="369.0" stroke="#0B5FCC" stroke-width="1.2" stroke-dasharray="3 4" opacity="0.6"><animate attributeName="stroke-dashoffset" values="0;-14" dur="2.2s" repeatCount="indefinite"/></line><line x1="350.0" y1="274.0" x2="185.5" y2="179.0" stroke="#0B5FCC" stroke-width="1.2" stroke-dasharray="3 4" opacity="0.6"><animate attributeName="stroke-dashoffset" values="0;-14" dur="2.4s" repeatCount="indefinite"/></line>
+    <circle cx="350.0" cy="274.0" r="34" fill="#F4F7FB" stroke="#0E8F84" stroke-width="2.5" filter="url(#glow)"/>
+    <text x="350.0" y="279.0" text-anchor="middle" font-size="12" font-weight="700" fill="#0E8F84">YOU</text>
+    
+    <circle cx="350.0" cy="84.0" r="16.0" fill="#F4F7FB" stroke="#0E8F84" stroke-width="2"/>
+    <circle cx="350.0" cy="84.0" r="13.0" fill="#0E8F84" opacity="0.85">
+      <animate attributeName="opacity" values="0.85;0.5;0.85" dur="2.4s" begin="0.00s" repeatCount="indefinite"/>
+    </circle>
+    <text x="350.0" y="45.0" text-anchor="middle" font-size="13" font-weight="600" fill="#17223B">karva</text>
+    <text x="350.0" y="59.0" text-anchor="middle" font-size="10" fill="#57606F">3 PRs</text>
+    <circle cx="514.5" cy="179.0" r="16.0" fill="#F4F7FB" stroke="#0E8F84" stroke-width="2"/>
+    <circle cx="514.5" cy="179.0" r="13.0" fill="#0E8F84" opacity="0.85">
+      <animate attributeName="opacity" values="0.85;0.5;0.85" dur="2.4s" begin="0.25s" repeatCount="indefinite"/>
+    </circle>
+    <text x="539.5" y="140.0" text-anchor="start" font-size="13" font-weight="600" fill="#17223B">polars</text>
+    <text x="539.5" y="154.0" text-anchor="start" font-size="10" fill="#57606F">3 PRs</text>
+    <circle cx="514.5" cy="369.0" r="13.0" fill="#F4F7FB" stroke="#0E8F84" stroke-width="2"/>
+    <circle cx="514.5" cy="369.0" r="10.0" fill="#0E8F84" opacity="0.85">
+      <animate attributeName="opacity" values="0.85;0.5;0.85" dur="2.4s" begin="0.50s" repeatCount="indefinite"/>
+    </circle>
+    <text x="536.5" y="403.0" text-anchor="start" font-size="13" font-weight="600" fill="#17223B">ruff</text>
+    <text x="536.5" y="418.0" text-anchor="start" font-size="10" fill="#57606F">2 PRs</text>
+    <circle cx="350.0" cy="464.0" r="10.0" fill="#F4F7FB" stroke="#0E8F84" stroke-width="2"/>
+    <circle cx="350.0" cy="464.0" r="7.0" fill="#0E8F84" opacity="0.85">
+      <animate attributeName="opacity" values="0.85;0.5;0.85" dur="2.4s" begin="0.75s" repeatCount="indefinite"/>
+    </circle>
+    <text x="350.0" y="495.0" text-anchor="middle" font-size="13" font-weight="600" fill="#17223B">fiber</text>
+    <text x="350.0" y="510.0" text-anchor="middle" font-size="10" fill="#57606F">1 PR</text>
+    <circle cx="185.5" cy="369.0" r="10.0" fill="#F4F7FB" stroke="#0E8F84" stroke-width="2"/>
+    <circle cx="185.5" cy="369.0" r="7.0" fill="#0E8F84" opacity="0.85">
+      <animate attributeName="opacity" values="0.85;0.5;0.85" dur="2.4s" begin="1.00s" repeatCount="indefinite"/>
+    </circle>
+    <text x="166.5" y="400.0" text-anchor="end" font-size="13" font-weight="600" fill="#17223B">prek</text>
+    <text x="166.5" y="415.0" text-anchor="end" font-size="10" fill="#57606F">1 PR</text>
+    <circle cx="185.5" cy="179.0" r="10.0" fill="#F4F7FB" stroke="#0E8F84" stroke-width="2"/>
+    <circle cx="185.5" cy="179.0" r="7.0" fill="#0E8F84" opacity="0.85">
+      <animate attributeName="opacity" values="0.85;0.5;0.85" dur="2.4s" begin="1.25s" repeatCount="indefinite"/>
+    </circle>
+    <text x="166.5" y="146.0" text-anchor="end" font-size="13" font-weight="600" fill="#17223B">uv</text>
+    <text x="166.5" y="160.0" text-anchor="end" font-size="10" fill="#57606F">1 PR</text>
+  </g>
+</svg>

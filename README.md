@@ -69,16 +69,17 @@
 
 ### 🌐 Open Source Contributions
 
-<!-- CONTRIB-LIST:START -->
-| Repository | Merged PRs |
-|---|---|
-| [**MatthewMckee4/karva**](https://github.com/MatthewMckee4/karva) | 3 |
-| [**pola-rs/polars**](https://github.com/pola-rs/polars) | 3 |
-| [**astral-sh/ruff**](https://github.com/astral-sh/ruff) | 2 |
-| [**gofiber/fiber**](https://github.com/gofiber/fiber) | 1 |
-| [**j178/prek**](https://github.com/j178/prek) | 1 |
-| [**astral-sh/uv**](https://github.com/astral-sh/uv) | 1 |
-<!-- CONTRIB-LIST:END -->
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/orbit.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/orbit-light.svg" />
+  <img alt="Network of open source projects I've contributed to" src="assets/orbit.svg" />
+</picture>
+
+<sub><i>Node size scales with merged PR count — refreshed daily alongside the language chart.</i></sub>
+
+</div>
 
 <div align="center">
   <picture>
