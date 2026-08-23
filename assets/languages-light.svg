@@ -1,12 +1,25 @@
 <svg width="495" height="190" viewBox="0 0 495 190" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Languages used across commits">
+  <defs><filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="3" result="blur"/>
+    <feMerge>
+      <feMergeNode in="blur"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter></defs>
   <rect x="1" y="1" width="493" height="188" rx="14" fill="#F4F7FB" stroke="#0B5FCC" stroke-width="1.5"/>
+  <g stroke="#0B5FCC" stroke-opacity="0.5" stroke-width="2.2" fill="none">
+    <path d="M10,22 L10,10 L22,10"/>
+    <path d="M473,10 L485,10 L485,22"/>
+    <path d="M10,168 L10,180 L22,180"/>
+    <path d="M473,180 L485,180 L485,168"/>
+  </g>
   <g font-family="'JetBrains Mono','Fira Code',monospace">
     <text x="24" y="24" font-size="12" font-weight="700" letter-spacing="1" fill="#57606F">LANGUAGES · BY COMMIT ACTIVITY</text>
     <circle cx="29" cy="46" r="5" fill="#dea584"/>
     <text x="42" y="50" font-size="13" font-weight="600" fill="#17223B">Rust</text>
     <text x="471" y="50" font-size="12" font-weight="600" fill="#0E8F84" text-anchor="end">79.2%</text>
     <rect x="24" y="56" width="447" height="7" rx="3.5" fill="#dfe7f5"/>
-    <rect x="24" y="56" width="353.9" height="7" rx="3.5" fill="#dea584"/>
+    <rect x="24" y="56" width="353.9" height="7" rx="3.5" fill="#dea584" filter="url(#glow)"/>
     <circle cx="29" cy="86" r="5" fill="#3572A5"/>
     <text x="42" y="90" font-size="13" font-weight="600" fill="#17223B">Python</text>
     <text x="471" y="90" font-size="12" font-weight="600" fill="#0E8F84" text-anchor="end">11.5%</text>

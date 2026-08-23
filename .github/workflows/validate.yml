@@ -31,8 +31,8 @@ jobs:
           weights = {"Python": 60.0, "Rust": 40.0}
           colors = {"Python": "#3572A5", "Rust": "#dea584"}
 
-          block = up.render_contrib_table(repos)
-          assert "owner/repo" in block, "contrib table missing repo row"
+          ranked = up.render_contrib_orbit(repos)
+          assert ranked and ranked[0][0] == "owner/repo", "orbit ranking looks wrong"
 
           langs = up.render_language_cards(weights, colors)
           assert langs and langs[0][0] == "Python", "language ranking looks wrong"
