@@ -17,18 +17,18 @@
     <text x="24" y="24" font-size="12" font-weight="700" letter-spacing="1" fill="#57606F">LANGUAGES · BY COMMIT ACTIVITY</text>
     <circle cx="29" cy="46" r="5" fill="#dea584"/>
     <text x="42" y="50" font-size="13" font-weight="600" fill="#17223B">Rust</text>
-    <text x="471" y="50" font-size="12" font-weight="600" fill="#0E8F84" text-anchor="end">72.6%</text>
+    <text x="471" y="50" font-size="12" font-weight="600" fill="#0E8F84" text-anchor="end">74.5%</text>
     <rect x="24" y="56" width="447" height="7" rx="3.5" fill="#dfe7f5"/>
-    <rect x="24" y="56" width="324.6" height="7" rx="3.5" fill="#dea584" filter="url(#glow)"/>
+    <rect x="24" y="56" width="332.8" height="7" rx="3.5" fill="#dea584" filter="url(#glow)"/>
     <circle cx="29" cy="86" r="5" fill="#00ADD8"/>
     <text x="42" y="90" font-size="13" font-weight="600" fill="#17223B">Go</text>
-    <text x="471" y="90" font-size="12" font-weight="600" fill="#0E8F84" text-anchor="end">16.7%</text>
+    <text x="471" y="90" font-size="12" font-weight="600" fill="#0E8F84" text-anchor="end">15.4%</text>
     <rect x="24" y="96" width="447" height="7" rx="3.5" fill="#dfe7f5"/>
-    <rect x="24" y="96" width="74.5" height="7" rx="3.5" fill="#00ADD8"/>
+    <rect x="24" y="96" width="68.7" height="7" rx="3.5" fill="#00ADD8"/>
     <circle cx="29" cy="126" r="5" fill="#3572A5"/>
     <text x="42" y="130" font-size="13" font-weight="600" fill="#17223B">Python</text>
-    <text x="471" y="130" font-size="12" font-weight="600" fill="#0E8F84" text-anchor="end">10.4%</text>
+    <text x="471" y="130" font-size="12" font-weight="600" fill="#0E8F84" text-anchor="end">9.8%</text>
     <rect x="24" y="136" width="447" height="7" rx="3.5" fill="#dfe7f5"/>
-    <rect x="24" y="136" width="46.7" height="7" rx="3.5" fill="#3572A5"/>
+    <rect x="24" y="136" width="43.9" height="7" rx="3.5" fill="#3572A5"/>
   </g>
 </svg>
